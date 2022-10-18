@@ -17,11 +17,13 @@
 
 package guru.sfg.beer.order.service.web.model;
 
+import guru.sfg.beer.order.service.domain.BeerOrder;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.ManyToOne;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
