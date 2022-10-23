@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 import java.util.Optional;
-
 public abstract class BeerOrderLineMapperDecorator implements BeerOrderLineMapper {
 
     private BeerService beerService;
